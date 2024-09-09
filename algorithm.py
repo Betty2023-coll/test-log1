@@ -46,15 +46,6 @@ if __name__ == "__main__":
         elif param == "BPIC13_i":
             log_skeleton = pm4py.discover_log_skeleton(BPIC13_i, noise_threshold=0.1, activity_key='concept:name', case_id_key='case:concept:name', timestamp_key='time:timestamp')
 
-        elif param == "BPIC14_f":
-            log_skeleton = pm4py.discover_log_skeleton(BPIC14_f, noise_threshold=0.1, activity_key='concept:name', case_id_key='case:concept:name', timestamp_key='time:timestamp')
-
-        elif param == "BPIC15_1f":
-            log_skeleton = pm4py.discover_log_skeleton(BPIC15_1f, noise_threshold=0.1, activity_key='concept:name', case_id_key='case:concept:name', timestamp_key='time:timestamp')
-
-        elif param == "BPIC15_2f":
-            log_skeleton = pm4py.discover_log_skeleton(BPIC15_2f, noise_threshold=0.1, activity_key='concept:name', case_id_key='case:concept:name', timestamp_key='time:timestamp')
-
 
     else:
         print("没有提供任何命令行参数")
